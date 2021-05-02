@@ -8,7 +8,7 @@ async def start(event):
     await event.reply("Hello!",
                     buttons=[
                         [CREATOR("ButtonUrl", url="https://t.me/ReSpXcT")],
-                        [😜 Just A Test 😜("Inline Button",data="example")]
+                        [Just A Test("Inline Button",data="example")]
                     ])
 
 @BotzHub.on(events.callbackquery.CallbackQuery(data="example"))
