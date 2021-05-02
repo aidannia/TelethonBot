@@ -7,10 +7,10 @@ from telethon import events, Button
 async def start(event):
     await event.reply("Hello!",
                     buttons=[
-                        [Button.url("ButtonUrl", url="https://t.me/xditya")],
-                        [Button.inline("Inline Button",data="example")]
+                        [🦋 CREATOR 🦋("ButtonUrl", url="https://t.me/ReSpXcT")],
+                        [😜 Just A Test 😜("Inline Button",data="example")]
                     ])
 
 @BotzHub.on(events.callbackquery.CallbackQuery(data="example"))
 async def ex(event):
-    await event.edit("You clicked a button!")
+    await event.edit("Nice 🤓! Now, Join @GangstersGroupp")
